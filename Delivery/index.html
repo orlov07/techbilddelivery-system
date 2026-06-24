@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>TechBild Delivery - Delivery rapido de comida, bebidas e mais</title>
+    <meta name="description" content="Delivery rapido na sua regiao. Peca comida, bebidas e muito mais com o TechBild Delivery." />
+    <meta name="theme-color" content="#f97316" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <meta property="og:title" content="TechBild Delivery - Peca agora" />
+    <meta property="og:description" content="Delivery rapido na sua regiao. Peca comida, bebidas e muito mais." />
+    <meta property="og:image" content="/og-cover.jpg" />
+    <meta property="og:url" content="https://techbilddelivery.web.app" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root">
+      <div
+        id="app-loader"
+        style="
+          position: fixed; inset: 0;
+          display: flex; flex-direction: column;
+          align-items: center; justify-content: center;
+          gap: 12px;
+          background: #0a0a0a; z-index: 9999;
+          color: #f5f5f5;
+          font-family: Inter, system-ui, sans-serif;
+        "
+      >
+        <div
+          style="
+            width: 40px; height: 40px;
+            border: 3px solid #262626;
+            border-top-color: #f97316;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+          "
+        ></div>
+        <p style="margin: 0; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase;">Carregando TechBild Delivery</p>
+        <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

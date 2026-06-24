@@ -1,0 +1,6 @@
+{
+  "name": "Delivery Estabelecimento",
+  "description": "Sistema completo de delivery para único estabelecimento, comandas para mesa, painel admin e painel de motoboy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

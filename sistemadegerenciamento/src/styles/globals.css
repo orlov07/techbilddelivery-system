@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --orange: #ff6a00;
+  --bg: #050b14;
+  --sidebar: #07111f;
+  --surface: #0d1726;
+  --surface-2: #08111d;
+  --border: rgba(255, 255, 255, 0.1);
+  --text: #ffffff;
+  --muted: #9ca3af;
+  --success: #00e59b;
+  --danger: #ef4444;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  overflow-y: auto;
+  color: var(--text);
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  text-rendering: optimizeLegibility;
+  touch-action: pan-y;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+svg,
+canvas,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#root {
+  isolation: isolate;
+  overflow-y: auto;
+}
