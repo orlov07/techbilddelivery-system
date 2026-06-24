@@ -11,7 +11,7 @@ const metaEnv = (import.meta as any).env || {};
 const supabaseUrl = metaEnv.VITE_SUPABASE_URL || '';
 const supabaseAnonKey = metaEnv.VITE_SUPABASE_ANON_KEY || '';
 const appUrl = metaEnv.VITE_APP_URL || metaEnv.APP_URL || '';
-const googleRedirectUrl = metaEnv.VITE_GOOGLE_REDIRECT_URL || appUrl || window.location.origin;
+const googleRedirectUrl = window.location.origin;
 
 export const ADMIN_APP_URL = 'https://systemdelivery.web.app/';
 // Admin email is read from VITE_ADMIN_EMAIL — never hardcode here.
