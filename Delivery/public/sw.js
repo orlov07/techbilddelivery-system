@@ -1,5 +1,5 @@
 const CACHE_NAME = 'techbild-delivery-v4';
-const APP_SHELL = ['/', '/manifest.webmanifest', '/og-cover.jpg', '/logo.png', '/icon-192.png', '/icon-512.png'];
+const APP_SHELL = ['/', '/manifest.webmanifest', '/og-cover.png', '/logo.png', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
